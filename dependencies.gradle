@@ -1,0 +1,32 @@
+ext {
+    // Android
+    compile_sdk_version = 31
+    application_id = "com.example.tinderinterviewapp"
+    min_sdk_version = 21
+    target_sdk_version = 31
+    version_code = 1
+    version_name = "1.0"
+
+    // Fragment ktx
+    def fragment_ktx_version = "1.4.1"
+    fragment_ktx = "androidx.fragment:fragment-ktx:$fragment_ktx_version"
+
+    // Navigation Component
+    nav_runtime = "androidx.navigation:navigation-runtime-ktx:$nav_version"
+    nav_fragment = "androidx.navigation:navigation-fragment-ktx:$nav_version"
+    nav_ui = "androidx.navigation:navigation-ui-ktx:$nav_version"
+
+    // Retrofit
+    def retrofit_version = "2.9.0"
+    retrofit = "com.squareup.retrofit2:retrofit:$retrofit_version"
+    retrofit_moshi_converter = "com.squareup.retrofit2:converter-moshi:$retrofit_version"
+
+    // Hilt
+    hilt_core = "com.google.dagger:hilt-android:$hilt_version"
+    hilt_compiler = "com.google.dagger:hilt-android-compiler:$hilt_version"
+
+    // Glide
+    def glide_version = "4.13.1"
+    glide = "com.github.bumptech.glide:glide:$glide_version"
+    glide_compiler = "com.github.bumptech.glide:compiler:$glide_version"
+}
